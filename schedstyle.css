@@ -1,0 +1,26 @@
+body{
+    background: white;
+    
+}
+table{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+}
+table , th , td , tr{
+    padding: 10px;
+    color: black;
+    background: white;
+    border: 2px solid #080808;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td:hover{
+    background-color: lightgreen;
+}
+th:hover{
+    background: lightpink;
+}

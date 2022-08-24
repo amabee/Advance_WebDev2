@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage | My Profile</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="indexstyle.css">
+    
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="profile">
+                <img src = "profile.gif" alt="">
+                <h3>John Paul Orencio</h3>
+                <p>ID: 02-1920-03954 </p>
+            </div>
+            <!--MENU ITEMS-->
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-home-user"></i></span>
+                        <span class="item">Home</span>
+                    </a>  
+                </li>
+                <li>
+                    <a href="#">
+                    <span class="icon"><i class="fas fa-calendar-check"></i></span>
+                    <span class="item">Schedule</span>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-address-card"></i></span>
+                    <span class="item">About Me</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <span class="icon"><i class="fab fa-reddit-alien"></i></span>
+                    <span class="item">Log Out</span>
+                    </a> 
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="top_navbar">
+                <div class="yumburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sched">
+    <iframe src="sched.html"></iframe>
+    </div>
+
+</body>
+</html>
+
+<script>
+    $("#button").click(function () { 
+      $("#iframe").attr("src", "http://www.google.com/");
+});
+</script>
