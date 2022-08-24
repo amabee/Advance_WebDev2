@@ -105,6 +105,10 @@ body{
 }
 
 iframe{
-    height: 200px;
-    width: 200px;
+    width: 55%;
+    height: 70%;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    transform: translate(60%,20%);
 }

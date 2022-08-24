@@ -28,9 +28,14 @@
                     </a>  
                 </li>
                 <li>
-                    <a href="#">
+                    <a>
                     <span class="icon"><i class="fas fa-calendar-check"></i></span>
                     <span class="item">Schedule</span>
+                    <script>
+                        function showDiv(){
+                            document.getElementById("myDiv").style.display = "block";
+                        }
+                    </script>
                     </a>
                     
                 </li>
@@ -42,7 +47,7 @@
                 </li>
                 <li>
                     <a href="login.html">
-                        <span class="icon"><i class="fab fa-reddit-alien"></i></span>
+                        <span class="icon" id="logOut"><i class="fab fa-reddit-alien"></i></span>
                     <span class="item">Log Out</span>
                     </a> 
                 </li>
@@ -57,15 +62,12 @@
         </div>
     </div>
     
-    <div class="sched">
-    <iframe src="sched.html"></iframe>
-    </div>
+        <div class="sched">
+            <iframe src="sched.html"></iframe>
+            </div>
+   
 
 </body>
 </html>
 
-<script>
-    $("#button").click(function () { 
-      $("#iframe").attr("src", "http://www.google.com/");
-});
-</script>
+
